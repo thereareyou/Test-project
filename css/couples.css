@@ -1,0 +1,60 @@
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+
+.card {
+  height: 240px;
+  padding: 30px;
+  font-size: 0px;
+  color: transparent;
+  background-color: #f5a742;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #ebac5a;
+}
+
+.card:active {
+  background-color: #c98a39;
+}
+
+.open {
+  font-size: 36px;
+  color: white;
+  background-color: #2251e9;
+  cursor: default;
+}
+
+.open:hover {
+  background-color: #2251e9;
+}
+
+.open:active {
+  background-color: #2251e9;
+}
+
+.success {
+  font-size: 36px;
+  color: white;
+  background-color: #009c15;
+  cursor: default;
+}
+
+.success:hover {
+  background-color: #009c15;
+}
+
+.success:active {
+  background-color: #009c15;
+}

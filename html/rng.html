@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Random number generator</h1>
+    <section id="number-generator">
+        <div class="wrapper">
+            <div class="wrapper__values">
+                <div class="values__item">
+                    <label for="minValue">Min:</label>
+                    <input type="number" id="minValue" min="0" class="input-value">
+                </div>
+                <div class="values__item">
+                    <label for="maxValue">Max:</label>
+                    <input type="number" id="maxValue" min="0" class="input-value">
+                </div>
+            </div>
+
+            <div class="btn">
+                <button id="generateBtn">Generate</button>
+            </div>
+            <div class="wrapepr__result">
+                <span>Result:</span>
+                <div id="result"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <nav>
+        <div id="menu-button" class="menu-button">☰</div>
+        <div id="menu" class="menu">
+            <a href="/html/rng.html" class="menu__links">RNG</a>
+            <a href="/html/couples.html" class="menu__links">Couples</a>
+        </div>
+    </nav>
+
+    <script type="module" src="/js/rng.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,3 @@
-import { handleChangeMenu } from "./menu.js";
-
 const game = document.getElementById("game");
 
 function startGame(game, cardsCount) {
